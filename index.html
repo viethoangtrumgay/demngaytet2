@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đếm Ngày Đến Tết 17/2/2026 - Đồng Hồ Đếm Ngược Tết Nguyên Đán 2026</title>
+    <meta name="description" content="Đồng hồ đếm ngược đến Tết Nguyên Đán 2026 (17/2/2026) với hiệu ứng pháo hoa, nhạc Tết và giao diện đẹp mắt. Theo dõi thời gian còn lại đến Tết Âm Lịch Bính Ngọ.">
+    <meta name="keywords" content="Tết 2026, đếm ngược Tết, Tết Nguyên Đán, 17/2/2026, Tết Âm Lịch, Bính Ngọ, đồng hồ đếm ngược Tết, pháo hoa Tết">
+    <meta name="author" content="Trang web Đếm ngày đến Tết">
+    <meta property="og:title" content="Đếm Ngày Đến Tết - Đồng Hồ Đếm Ngược Tết Nguyên Đán">
+    <meta property="og:description" content="Đồng hồ đếm ngược đến Tết Nguyên Đán 2026 với hiệu ứng pháo hoa và nhạc Tết đặc sắc">
+    <meta property="og:image" content="https://files.catbox.moe/euymb8.jpg">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a1a2a 0%, #1a3a5f 50%, #0a1a2a 100%);
+            color: #fff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+            background-image: url('https://files.catbox.moe/euymb8.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+            z-index: 0;
+        }
+        
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #ffd166;
+            color: #0a1a2a;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+        }
+        
+        .skip-to-content:focus {
+            top: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+        
+        header {
+            margin-bottom: 2rem;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+            color: #ffd166;
+            text-shadow: 0 0 15px rgba(255, 209, 102, 0.7);
+            letter-spacing: 2px;
+            background: linear-gradient(45deg, #ff9a3c, #ffd166);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tet-date {
+            font-size: 2rem;
+            color: #a5d8ff;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a5d8ff;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+        
+        .countdown-container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .countdown-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 209, 102, 0.1) 0%, rgba(255, 154, 60, 0.1) 100%);
+            z-index: -1;
+        }
+        
+        .countdown-title {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            color: #ffd166;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .countdown-item {
+            background: rgba(10, 26, 42, 0.4);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            min-width: 170px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 209, 102, 0.3);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .countdown-item::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            background: linear-gradient(45deg, rgba(255, 209, 102, 0.1), rgba(255, 154, 60, 0.1));
+            z-index: -1;
+            border-radius: 25px;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        
+        .countdown-item:hover {
+            transform: translateY(-15px) scale(1.05);
+            box-shadow: 0 15px 35px rgba(255, 209, 102, 0.2);
+        }
+        
+        .countdown-item:hover::before {
+            opacity: 1;
+        }
+        
+        .countdown-value {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #ffd166;
+            text-shadow: 0 0 15px rgba(255, 209, 102, 0.7);
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+        }
+        
+        .countdown-label {
+            font-size: 1.3rem;
+            color: #a5d8ff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+        
+        .fireworks-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 5;
+        }
+        
+        .firework {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0;
+        }
+        
+        .emoji-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .emoji {
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0;
+            animation-timing-function: linear, ease-in-out;
+            animation-iteration-count: 1, infinite;
+            filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.9; }
+            90% { opacity: 0.9; }
+            100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+        }
+        
+        @keyframes float-slow {
+            0% { transform: translateY(100vh) translateX(0) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.8; }
+            90% { opacity: 0.8; }
+            100% { transform: translateY(-100px) translateX(100px) rotate(360deg); opacity: 0; }
+        }
+        
+        @keyframes float-fast {
+            0% { transform: translateY(100vh) translateX(0) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100px) translateX(-100px) rotate(360deg); opacity: 0; }
+        }
+        
+        @keyframes wobble {
+            0%, 100% { transform: translateX(0) rotate(0deg); }
+            25% { transform: translateX(-5px) rotate(-5deg); }
+            75% { transform: translateX(5px) rotate(5deg); }
+        }
+        
+        @keyframes glow {
+            0%, 100% { 
+                text-shadow: 0 0 5px rgba(255, 209, 102, 0.7);
+                box-shadow: 0 0 10px rgba(255, 209, 102, 0.5);
+            }
+            50% { 
+                text-shadow: 0 0 20px rgba(255, 209, 102, 0.9), 0 0 30px rgba(255, 209, 102, 0.7);
+                box-shadow: 0 0 20px rgba(255, 209, 102, 0.7);
+            }
+        }
+        
+        .festival-info {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-top: 2rem;
+            text-align: left;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            border-left: 5px solid #ffd166;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+        
+        .festival-info h3 {
+            color: #ffd166;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+        }
+        
+        .festival-info p {
+            line-height: 1.6;
+            color: #c2e0ff;
+            font-size: 1.1rem;
+        }
+        
+        .controls {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            background: linear-gradient(to right, #ff9a3c, #ffd166);
+            color: #0a1a2a;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 8px 20px rgba(255, 154, 60, 0.4);
+            backdrop-filter: blur(10px);
+        }
+        
+        button:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 12px 25px rgba(255, 154, 60, 0.6);
+        }
+        
+        button:active {
+            transform: translateY(1px);
+        }
+        
+        button:focus {
+            outline: 3px solid #a5d8ff;
+            outline-offset: 3px;
+        }
+        
+        .music-toggle {
+            background: linear-gradient(to right, #3c8ce7, #00eaff);
+        }
+        
+        .music-toggle:hover {
+            box-shadow: 0 12px 25px rgba(60, 140, 231, 0.6);
+        }
+        
+        .fireworks-btn {
+            background: linear-gradient(to right, #ff3c6e, #ff9a3c);
+        }
+        
+        .fireworks-btn:hover {
+            box-shadow: 0 12px 25px rgba(255, 60, 110, 0.6);
+        }
+        
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            color: #a5d8ff;
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 1.5rem;
+        }
+        
+        .audio-control {
+            display: none;
+        }
+        
+        .video-control {
+            position: fixed;
+            width: 300px;
+            height: 200px;
+            z-index: 20;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 2px solid #ffd166;
+            display: none;
+            background: #000;
+            cursor: move;
+            user-select: none;
+            resize: none;
+        }
+        
+        .video-control.show {
+            display: block;
+        }
+        
+        .video-control.resizing {
+            cursor: nwse-resize;
+        }
+        
+        .video-control.dragging {
+            opacity: 0.9;
+        }
+        
+        .video-close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 30px;
+            height: 30px;
+            padding: 0;
+            border: none;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.85);
+            color: #fff;
+            display: grid;
+            place-items: center;
+            font-size: 18px;
+            line-height: 1;
+            cursor: pointer;
+            z-index: 21;
+            opacity: 0.7;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        
+        .video-close-btn:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        
+        .resize-handle {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background: rgba(255, 209, 102, 0.9);
+            border: 2px solid #0a1a2a;
+            border-radius: 3px;
+            z-index: 3;
+        }
+        
+        .resize-handle.top-left {
+            top: 0;
+            left: 0;
+            cursor: nwse-resize;
+            border-top-left-radius: 13px;
+            border-bottom-right-radius: 3px;
+        }
+        
+        .resize-handle.top-right {
+            top: 0;
+            right: 0;
+            cursor: nesw-resize;
+            border-top-right-radius: 13px;
+            border-bottom-left-radius: 3px;
+        }
+        
+        .resize-handle.bottom-left {
+            bottom: 0;
+            left: 0;
+            cursor: nesw-resize;
+            border-bottom-left-radius: 13px;
+            border-top-right-radius: 3px;
+        }
+        
+        .resize-handle.bottom-right {
+            bottom: 0;
+            right: 0;
+            cursor: nwse-resize;
+            border-bottom-right-radius: 13px;
+            border-top-left-radius: 3px;
+        }
+        
+        .video-control video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .video-list-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(10, 26, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 1rem;
+            z-index: 22;
+            width: 250px;
+            display: none;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 209, 102, 0.3);
+            max-height: 350px;
+            overflow-y: auto;
+        }
+        
+        .video-list-container.show {
+            display: block;
+        }
+        
+        .video-list-container h4 {
+            color: #ffd166;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        
+        .video-list {
+            max-height: 250px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+        }
+        
+        .video-item {
+            padding: 10px 12px;
+            background: rgba(255, 255, 255, 0.1);
+            margin-bottom: 8px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .video-item:hover {
+            background: rgba(255, 209, 102, 0.2);
+        }
+        
+        .video-item.active {
+            background: rgba(255, 209, 102, 0.3);
+            color: #ffd166;
+            font-weight: bold;
+        }
+        
+        .video-item .video-icon {
+            color: #ffd166;
+            font-size: 1rem;
+        }
+        
+        .random-video-btn {
+            width: 100%;
+            margin-top: 10px;
+            background: linear-gradient(to right, #9c3cff, #3c8ce7);
+            padding: 10px 12px;
+            font-size: 0.9rem;
+            justify-content: center;
+        }
+        
+        .blur-effect {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(8px);
+            z-index: 2;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.5s ease;
+        }
+        
+        .blur-effect.active {
+            opacity: 1;
+        }
+        
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #0a1a2a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(255, 209, 102, 0.3);
+            border-radius: 50%;
+            border-top-color: #ffd166;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .modal {
+            background: linear-gradient(135deg, #0a1a2a, #1a3a5f);
+            border-radius: 20px;
+            padding: 2.5rem;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            border: 2px solid #ffd166;
+            position: relative;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: transparent;
+            border: none;
+            color: #ffd166;
+            font-size: 1.5rem;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        
+        .modal-close:hover {
+            background: rgba(255, 209, 102, 0.1);
+        }
+        
+        .modal h2 {
+            color: #ffd166;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        .modal p {
+            color: #a5d8ff;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .years-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            margin-bottom: 2rem;
+        }
+        
+        .year-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 209, 102, 0.3);
+            border-radius: 10px;
+            padding: 1rem;
+            color: #a5d8ff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .year-btn:hover {
+            background: rgba(255, 209, 102, 0.2);
+            border-color: #ffd166;
+            color: #ffd166;
+            transform: translateY(-5px);
+        }
+        
+        .year-btn.active {
+            background: rgba(255, 209, 102, 0.3);
+            border-color: #ffd166;
+            color: #ffd166;
+        }
+        
+        .year-info {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+        
+        .year-date {
+            color: #ffd166;
+        }
+        
+        .year-zodiac {
+            color: #a5d8ff;
+            font-size: 0.8rem;
+        }
+        
+        .congrats-message {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1001;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s ease;
+        }
+        
+        .congrats-message.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .typing-text {
+            color: #ffd166;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 0 2rem;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .cursor {
+            display: inline-block;
+            width: 3px;
+            height: 2.5rem;
+            background-color: #ffd166;
+            margin-left: 5px;
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        
+        .continue-btn {
+            background: linear-gradient(to right, #ff9a3c, #ffd166);
+            color: #0a1a2a;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 2rem;
+            display: none;
+        }
+        
+        .continue-btn.show {
+            display: block;
+        }
+        
+        .select-year-btn {
+            background: linear-gradient(to right, #9c3cff, #3c8ce7);
+            margin-top: 1rem;
+        }
+        
+        .select-year-btn:hover {
+            box-shadow: 0 12px 25px rgba(156, 60, 255, 0.6);
+        }
+        
+        @media (max-width: 992px) {
+            .countdown {
+                gap: 1.5rem;
+            }
+            
+            .countdown-item {
+                min-width: 150px;
+                padding: 1.5rem;
+            }
+            
+            .countdown-value {
+                font-size: 3.5rem;
+            }
+            
+            .typing-text {
+                font-size: 2rem;
+            }
+            
+            .video-list-container {
+                width: 220px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .tet-date {
+                font-size: 1.5rem;
+            }
+            
+            .countdown {
+                gap: 1rem;
+            }
+            
+            .countdown-item {
+                min-width: 130px;
+                padding: 1.2rem;
+            }
+            
+            .countdown-value {
+                font-size: 3rem;
+            }
+            
+            .countdown-label {
+                font-size: 1.1rem;
+            }
+            
+            .typing-text {
+                font-size: 1.8rem;
+                padding: 0 1rem;
+            }
+            
+            .video-control {
+                width: 250px;
+                height: 150px;
+            }
+            
+            .video-list-container {
+                width: 200px;
+                bottom: 10px;
+                right: 10px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .tet-date {
+                font-size: 1.2rem;
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .countdown {
+                gap: 0.8rem;
+            }
+            
+            .countdown-item {
+                min-width: 110px;
+                padding: 1rem;
+            }
+            
+            .countdown-value {
+                font-size: 2.5rem;
+            }
+            
+            .countdown-label {
+                font-size: 1rem;
+            }
+            
+            .controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            button {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+            
+            .typing-text {
+                font-size: 1.5rem;
+            }
+            
+            .years-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .video-control {
+                width: 200px;
+                height: 120px;
+            }
+            
+            .video-list-container {
+                width: 180px;
+            }
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            *, ::before, ::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Bỏ qua để đến nội dung chính</a>
+    
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner" role="status" aria-label="Đang tải trang">
+            <span class="sr-only">Đang tải trang...</span>
+        </div>
+    </div>
+    
+    <div class="blur-effect" id="blurEffect"></div>
+    
+    <div class="fireworks-container" id="fireworksContainer" aria-hidden="true"></div>
+    
+    <div class="emoji-container" id="emojiContainer" aria-hidden="true"></div>
+    
+    <div class="video-control" id="videoControl">
+        <div class="resize-handle top-left" id="resizeTopLeft"></div>
+        <div class="resize-handle top-right" id="resizeTopRight"></div>
+        <div class="resize-handle bottom-left" id="resizeBottomLeft"></div>
+        <div class="resize-handle bottom-right" id="resizeBottomRight"></div>
+        <button class="video-close-btn" id="videoCloseBtn" aria-label="Đóng video">×</button>
+        <video id="tetVideo" loop playsinline>
+            <source src="https://files.catbox.moe/oddstf.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+    </div>
+    
+    <div class="video-list-container" id="videoListContainer">
+        <h4>Chọn Video Tết</h4>
+        <div class="video-list" id="videoList">
+        </div>
+        <button class="random-video-btn" id="randomVideoBtn">
+            <i class="fas fa-random"></i> Video Ngẫu Nhiên
+        </button>
+    </div>
+    
+    <div class="congrats-message" id="congratsMessage">
+        <div class="typing-text" id="typingText"></div>
+        <button class="continue-btn" id="continueBtn">Tiếp tục chọn năm mới</button>
+    </div>
+    
+    <div class="modal-overlay" id="yearModal">
+        <div class="modal">
+            <button class="modal-close" id="modalClose" aria-label="Đóng modal">×</button>
+            <h2>Chọn Năm Tết để Đếm Ngược</h2>
+            <p>Chọn một năm trong tương lai để bắt đầu đếm ngược đến Tết Nguyên Đán:</p>
+            <div class="years-grid" id="yearsGrid">
+            </div>
+            <p style="color: #ffd166; font-size: 0.9rem; margin-top: 1rem;">Lựa chọn của bạn sẽ được lưu tự động</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <header id="main-content" tabindex="-1">
+            <h1><i class="fas fa-fire" aria-hidden="true"></i> Đếm Ngày Đến Tết <i class="fas fa-fire" aria-hidden="true"></i></h1>
+            <div class="tet-date">
+                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                <span id="currentTetDate">Tết Nguyên Đán: 17 tháng 2, 2026</span>
+            </div>
+            <p class="subtitle">Cùng đón chờ khoảnh khắc giao thừa thiêng liêng với hiệu ứng pháo hoa rực rỡ</p>
+        </header>
+        
+        <main>
+            <div class="countdown-container">
+                <h2 class="countdown-title"><i class="fas fa-clock" aria-hidden="true"></i> Thời gian còn lại đến Tết Nguyên Đán <span id="currentYear">2026</span></h2>
+                <div class="countdown" role="timer" aria-live="polite" aria-label="Đồng hồ đếm ngược đến Tết">
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="days">00</div>
+                        <div class="countdown-label">Ngày</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="hours">00</div>
+                        <div class="countdown-label">Giờ</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="minutes">00</div>
+                        <div class="countdown-label">Phút</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="seconds">00</div>
+                        <div class="countdown-label">Giây</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="festival-info">
+                <h3><i class="fas fa-info-circle" aria-hidden="true"></i> Về Tết Nguyên Đán <span id="currentZodiac">Bính Ngọ</span></h3>
+                <p id="festivalDescription">Năm 2026, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 17 tháng 2 dương lịch (tức mùng 1 tháng Giêng năm Bính Ngọ). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới.</p>
+            </div>
+            
+            <div class="controls">
+                <button id="toggleEmoji" aria-label="Bật hoặc tắt hiệu ứng emoji Tết">
+                    <i class="fas fa-play"></i> <span>Bật/Tắt Emoji</span>
+                </button>
+                <button class="music-toggle" id="toggleMusic" aria-label="Bật hoặc tắt nhạc Tết">
+                    <i class="fas fa-music"></i> <span>Bật/Tắt Nhạc Tết</span>
+                </button>
+                <button id="toggleVideoBtn" aria-label="Bật hoặc tắt video Tết">
+                    <i class="fas fa-video"></i> <span>Bật/Tắt Video</span>
+                </button>
+                <button class="fireworks-btn" id="fireworksBtn" aria-label="Kích hoạt hiệu ứng pháo hoa">
+                    <i class="fas fa-fire"></i> <span>Hiệu ứng pháo hoa</span>
+                </button>
+                <button id="toggleBlur" aria-label="Bật hoặc tắt hiệu ứng làm mờ nền">
+                    <i class="fas fa-snowflake"></i> <span>Hiệu ứng Blur</span>
+                </button>
+                <button class="select-year-btn" id="selectYearBtn" aria-label="Chọn năm Tết khác">
+                    <i class="fas fa-calendar"></i> <span>Chọn Năm Tết</span>
+                </button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 Đếm ngày đến Tết | By Viet Hoang</p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem;">Trang web này được tôi tạo ra chỉ để các bạn xem còn bnhieu ngày nữa là đến tết sử dụng nhạc và nền mang không khí tết | cảm ơn các bạn đã ghé thăm</p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #ffd166;">Đang đếm ngược đến Tết: <span id="selectedYearDisplay">2026</span></p>
+        </footer>
+    </div>
+    
+    <audio id="tetMusic" loop class="audio-control" preload="metadata">
+        <source src="https://files.catbox.moe/zjg7nq.mp3" type="audio/mpeg">
+        Trình duyệt của bạn không hỗ trợ phát nhạc.
+    </audio>
+    
+    <script>
+        const tetData = {
+            "2026": { 
+                date: "February 17, 2026 00:00:00", 
+                zodiac: "Bính Ngọ", 
+                description: "Năm 2026, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 17 tháng 2 dương lịch (tức mùng 1 tháng Giêng năm Bính Ngọ). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2027": { 
+                date: "February 6, 2027 00:00:00", 
+                zodiac: "Đinh Mùi", 
+                description: "Năm 2027, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 6 tháng 2 dương lịch (tức mùng 1 tháng Giêng năm Đinh Mùi). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2028": { 
+                date: "January 26, 2028 00:00:00", 
+                zodiac: "Mậu Thân", 
+                description: "Năm 2028, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 26 tháng 1 dương lịch (tức mùng 1 tháng Giêng năm Mậu Thân). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2029": { 
+                date: "February 13, 2029 00:00:00", 
+                zodiac: "Kỷ Dậu", 
+                description: "Năm 2029, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 13 tháng 2 dương lịch (tức mùng 1 tháng Giêng năm Kỷ Dậu). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2030": { 
+                date: "February 3, 2030 00:00:00", 
+                zodiac: "Canh Tuất", 
+                description: "Năm 2030, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 3 tháng 2 dương lịch (tức mùng 1 tháng Giêng năm Canh Tuất). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2031": { 
+                date: "January 23, 2031 00:00:00", 
+                zodiac: "Tân Hợi", 
+                description: "Năm 2031, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 23 tháng 1 dương lịch (tức mùng 1 tháng Giêng năm Tân Hợi). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2032": { 
+                date: "February 11, 2032 00:00:00", 
+                zodiac: "Nhâm Tý", 
+                description: "Năm 2032, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 11 tháng 2 dương lịch (tức mùng 1 tháng Giêng năm Nhâm Tý). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2033": { 
+                date: "January 31, 2033 00:00:00", 
+                zodiac: "Quý Sửu", 
+                description: "Năm 2033, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 31 tháng 1 dương lịch (tức mùng 1 tháng Giêng năm Quý Sửu). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2034": { 
+                date: "February 19, 2034 00:00:00", 
+                zodiac: "Giáp Dần", 
+                description: "Năm 2034, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 19 tháng 2 dương lịch (tức mùng 1 tháng Giêng năm Giáp Dần). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            },
+            "2035": { 
+                date: "February 8, 2035 00:00:00", 
+                zodiac: "Ất Mão", 
+                description: "Năm 2035, Tết Nguyên Đán (Tết Âm Lịch) rơi vào ngày 8 tháng 2 dương lịch (tức mùng 1 tháng Giêng năm Ất Mão). Đây là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu mới với nhiều hy vọng và may mắn. Tết là thời điểm sum họp gia đình, tri ân tổ tiên và cầu chúc những điều tốt lành cho năm mới." 
+            }
+        };
+        
+        const newYearMessages = [
+            "Chúc mừng năm mới 2026! Chúc bạn một năm Bính Ngọ an khang thịnh vượng, vạn sự như ý!",
+            "Xuân đến trăm hoa đua nở, Tết về muôn sắc khoe hương. Chúc gia đình bạn năm mới hạnh phúc sum vầy!",
+            "Năm cũ qua đi, năm mới lại đến. Chúc bạn 365 ngày hạnh phúc, 52 tuần thành công, 12 tháng an lành!",
+            "Tết đến xuân về, chúc bạn sức khỏe dồi dào, công danh thuận lợi, tài lộc đầy nhà!",
+            "Chúc mừng năm mới! Cầu chúc bạn và gia đình một năm an khang, hạnh phúc và thành công rực rỡ!"
+        ];
+        
+        const videoSources = [
+            { src: "https://files.catbox.moe/oddstf.mp4", title: "Video Tết 1" },
+            { src: "https://files.catbox.moe/x4irrj.mp4", title: "Video Tết 2" },
+            { src: "https://files.catbox.moe/jhptlc.mp4", title: "Video Tết 3" },
+            { src: "https://files.catbox.moe/axy1ho.mp4", title: "Video Tết 4" },
+            { src: "https://files.catbox.moe/7yyatg.mp4", title: "Video Tết 5" },
+            { src: "https://files.catbox.moe/yz9rx6.mp4", title: "Video Tết 6" }
+        ];
+        
+        let selectedYear = localStorage.getItem('selectedTetYear') || "2026";
+        let tetDate = new Date(tetData[selectedYear].date).getTime();
+        let countdownInterval;
+        let musicPlaying = false;
+        let videoPlaying = false;
+        let emojisActive = true;
+        let blurActive = false;
+        let currentVideoIndex = 0;
+        let isDragging = false;
+        let isResizing = false;
+        let resizeDirection = null;
+        let dragOffset = { x: 0, y: 0 };
+        let startPos = { x: 0, y: 0 };
+        let startSize = { width: 0, height: 0 };
+        const minVideoSize = { width: 150, height: 100 };
+        const maxVideoSize = { width: 800, height: 600 };
+        
+        function initPage() {
+            updateSelectedYearDisplay();
+            startCountdown();
+            createYearSelectionButtons();
+            updateVideoList();
+            
+            const savedVideoIndex = localStorage.getItem('selectedVideoIndex');
+            if (savedVideoIndex !== null) {
+                currentVideoIndex = parseInt(savedVideoIndex);
+                changeVideo(currentVideoIndex);
+            }
+        }
+        
+        function updateSelectedYearDisplay() {
+            const date = new Date(tetData[selectedYear].date);
+            const day = date.getDate();
+            const month = date.getMonth() + 1;
+            const year = date.getFullYear();
+            
+            document.getElementById('currentTetDate').textContent = `Tết Nguyên Đán: ${day} tháng ${month}, ${year}`;
+            document.getElementById('currentYear').textContent = selectedYear;
+            document.getElementById('currentZodiac').textContent = tetData[selectedYear].zodiac;
+            document.getElementById('festivalDescription').textContent = tetData[selectedYear].description;
+            document.getElementById('selectedYearDisplay').textContent = selectedYear;
+            
+            localStorage.setItem('selectedTetYear', selectedYear);
+        }
+        
+        function formatDate(date) {
+            const day = date.getDate();
+            const month = date.getMonth() + 1;
+            const year = date.getFullYear();
+            return `${day} tháng ${month}, ${year}`;
+        }
+        
+        function startCountdown() {
+            if (countdownInterval) {
+                clearInterval(countdownInterval);
+            }
+            
+            tetDate = new Date(tetData[selectedYear].date).getTime();
+            
+            countdownInterval = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = tetDate - now;
+                
+                if (distance < 0) {
+                    clearInterval(countdownInterval);
+                    showCongratulations();
+                    return;
+                }
+                
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById('days').innerHTML = days.toString().padStart(2, '0');
+                document.getElementById('hours').innerHTML = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').innerHTML = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').innerHTML = seconds.toString().padStart(2, '0');
+                
+                const secondsElement = document.getElementById('seconds');
+                secondsElement.style.animation = 'none';
+                setTimeout(() => {
+                    secondsElement.style.animation = 'glow 0.5s ease';
+                }, 10);
+                
+                if (distance > 0 && distance < 10 * 60 * 1000) {
+                    if (Math.random() > 0.7) {
+                        createFirework();
+                    }
+                }
+            }, 1000);
+        }
+        
+        function showCongratulations() {
+            const congratsMessage = document.getElementById('congratsMessage');
+            const typingText = document.getElementById('typingText');
+            const continueBtn = document.getElementById('continueBtn');
+            
+            const message = newYearMessages[Math.floor(Math.random() * newYearMessages.length)];
+            
+            congratsMessage.classList.add('active');
+            
+            let i = 0;
+            typingText.innerHTML = '';
+            
+            function typeWriter() {
+                if (i < message.length) {
+                    typingText.innerHTML += message.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 50);
+                } else {
+                    setTimeout(() => {
+                        continueBtn.classList.add('show');
+                    }, 500);
+                }
+            }
+            
+            typeWriter();
+            
+            const fireworksInterval = setInterval(() => {
+                for (let i = 0; i < 5; i++) {
+                    setTimeout(() => {
+                        createFirework();
+                    }, i * 200);
+                }
+            }, 1000);
+            
+            setTimeout(() => {
+                clearInterval(fireworksInterval);
+            }, 10000);
+        }
+        
+        function createYearSelectionButtons() {
+            const yearsGrid = document.getElementById('yearsGrid');
+            yearsGrid.innerHTML = '';
+            
+            Object.keys(tetData).forEach(year => {
+                const yearBtn = document.createElement('button');
+                yearBtn.className = `year-btn ${year === selectedYear ? 'active' : ''}`;
+                yearBtn.innerHTML = `
+                    ${year}
+                    <div class="year-info">
+                        <div class="year-date">${formatDate(new Date(tetData[year].date))}</div>
+                        <div class="year-zodiac">${tetData[year].zodiac}</div>
+                    </div>
+                `;
+                
+                yearBtn.addEventListener('click', () => {
+                    selectYear(year);
+                });
+                
+                yearsGrid.appendChild(yearBtn);
+            });
+        }
+        
+        function selectYear(year) {
+            selectedYear = year;
+            updateSelectedYearDisplay();
+            startCountdown();
+            closeYearModal();
+            
+            document.querySelectorAll('.year-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent.includes(year)) {
+                    btn.classList.add('active');
+                }
+            });
+        }
+        
+        function openYearModal() {
+            document.getElementById('yearModal').classList.add('active');
+        }
+        
+        function closeYearModal() {
+            document.getElementById('yearModal').classList.remove('active');
+        }
+        
+        function closeCongratulations() {
+            document.getElementById('congratsMessage').classList.remove('active');
+            document.getElementById('continueBtn').classList.remove('show');
+        }
+        
+        function updateVideoList() {
+            const videoList = document.getElementById('videoList');
+            videoList.innerHTML = '';
+            
+            videoSources.forEach((video, index) => {
+                const videoItem = document.createElement('div');
+                videoItem.className = `video-item ${index === currentVideoIndex ? 'active' : ''}`;
+                videoItem.innerHTML = `
+                    <i class="fas fa-video video-icon"></i>
+                    <span>${video.title}</span>
+                `;
+                videoItem.dataset.index = index;
+                
+                videoItem.addEventListener('click', function() {
+                    const index = parseInt(this.dataset.index);
+                    selectVideo(index);
+                });
+                
+                videoList.appendChild(videoItem);
+            });
+        }
+        
+        function selectVideo(index) {
+            changeVideo(index);
+            
+            document.getElementById('videoListContainer').classList.remove('show');
+            
+            const videoControl = document.getElementById('videoControl');
+            videoControl.classList.add('show');
+            
+            if (!videoControl.style.left || videoControl.style.left === '0px') {
+                const defaultLeft = window.innerWidth - 320;
+                const defaultTop = window.innerHeight - 220;
+                videoControl.style.left = `${defaultLeft}px`;
+                videoControl.style.top = `${defaultTop}px`;
+                videoControl.style.right = 'auto';
+                videoControl.style.bottom = 'auto';
+            }
+            
+            const tetVideo = document.getElementById('tetVideo');
+            tetVideo.play().catch(e => {
+                console.log("Không thể phát video: ", e);
+            });
+            
+            videoPlaying = true;
+            
+            document.getElementById('toggleVideoBtn').innerHTML = '<i class="fas fa-pause"></i> <span>Tắt Video</span>';
+            document.getElementById('toggleVideoBtn').setAttribute('aria-label', 'Tắt video Tết');
+        }
+        
+        function changeVideo(index) {
+            if (index >= 0 && index < videoSources.length) {
+                currentVideoIndex = index;
+                const tetVideo = document.getElementById('tetVideo');
+                
+                tetVideo.pause();
+                tetVideo.src = videoSources[index].src;
+                tetVideo.load();
+                
+                updateVideoList();
+                
+                localStorage.setItem('selectedVideoIndex', index);
+            }
+        }
+        
+        function randomVideo() {
+            let randomIndex;
+            do {
+                randomIndex = Math.floor(Math.random() * videoSources.length);
+            } while (randomIndex === currentVideoIndex && videoSources.length > 1);
+            
+            selectVideo(randomIndex);
+        }
+        
+        function initDragAndResize() {
+            const videoControl = document.getElementById('videoControl');
+            const resizeTopLeft = document.getElementById('resizeTopLeft');
+            const resizeTopRight = document.getElementById('resizeTopRight');
+            const resizeBottomLeft = document.getElementById('resizeBottomLeft');
+            const resizeBottomRight = document.getElementById('resizeBottomRight');
+            const videoCloseBtn = document.getElementById('videoCloseBtn');
+            
+            const savedPosition = localStorage.getItem('videoPosition');
+            const savedSize = localStorage.getItem('videoSize');
+            
+            if (savedPosition) {
+                const { x, y } = JSON.parse(savedPosition);
+                videoControl.style.left = `${x}px`;
+                videoControl.style.top = `${y}px`;
+                videoControl.style.right = 'auto';
+                videoControl.style.bottom = 'auto';
+            }
+            
+            if (savedSize) {
+                const { width, height } = JSON.parse(savedSize);
+                videoControl.style.width = `${width}px`;
+                videoControl.style.height = `${height}px`;
+            }
+            
+            videoControl.addEventListener('mousedown', startDragFromVideo);
+            videoControl.addEventListener('touchstart', startDragTouchFromVideo, { passive: false });
+            
+            videoCloseBtn.addEventListener('mousedown', (e) => e.stopPropagation());
+            videoCloseBtn.addEventListener('touchstart', (e) => e.stopPropagation(), { passive: false });
+            
+            [resizeTopLeft, resizeTopRight, resizeBottomLeft, resizeBottomRight].forEach(handle => {
+                handle.addEventListener('mousedown', (e) => {
+                    e.stopPropagation();
+                    startResize(e, handle.id);
+                });
+                handle.addEventListener('touchstart', (e) => {
+                    e.stopPropagation();
+                    startResizeTouch(e, handle.id);
+                }, { passive: false });
+            });
+            
+            document.addEventListener('mousemove', handleMouseMove);
+            document.addEventListener('mouseup', stopInteractions);
+            document.addEventListener('touchmove', handleTouchMove, { passive: false });
+            document.addEventListener('touchend', stopInteractionsTouch);
+        }
+        
+        function startDragFromVideo(e) {
+            if (e.target.id === 'videoCloseBtn' || e.target.classList.contains('resize-handle')) {
+                return;
+            }
+            
+            e.preventDefault();
+            isDragging = true;
+            const videoControl = document.getElementById('videoControl');
+            videoControl.classList.add('dragging');
+            
+            const rect = videoControl.getBoundingClientRect();
+            dragOffset.x = e.clientX - rect.left;
+            dragOffset.y = e.clientY - rect.top;
+        }
+        
+        function startDragTouchFromVideo(e) {
+            if (e.touches.length !== 1) return;
+            
+            const target = e.target;
+            if (target.id === 'videoCloseBtn' || target.classList.contains('resize-handle')) {
+                return;
+            }
+            
+            e.preventDefault();
+            isDragging = true;
+            const videoControl = document.getElementById('videoControl');
+            videoControl.classList.add('dragging');
+            
+            const rect = videoControl.getBoundingClientRect();
+            dragOffset.x = e.touches[0].clientX - rect.left;
+            dragOffset.y = e.touches[0].clientY - rect.top;
+        }
+        
+        function startResize(e, direction) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            isResizing = true;
+            resizeDirection = direction;
+            const videoControl = document.getElementById('videoControl');
+            videoControl.classList.add('resizing');
+            
+            const rect = videoControl.getBoundingClientRect();
+            startPos.x = e.clientX;
+            startPos.y = e.clientY;
+            startSize.width = rect.width;
+            startSize.height = rect.height;
+        }
+        
+        function startResizeTouch(e, direction) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (e.touches.length !== 1) return;
+            
+            isResizing = true;
+            resizeDirection = direction;
+            const videoControl = document.getElementById('videoControl');
+            videoControl.classList.add('resizing');
+            
+            const rect = videoControl.getBoundingClientRect();
+            startPos.x = e.touches[0].clientX;
+            startPos.y = e.touches[0].clientY;
+            startSize.width = rect.width;
+            startSize.height = rect.height;
+        }
+        
+        function handleMouseMove(e) {
+            if (!isDragging && !isResizing) return;
+            
+            e.preventDefault();
+            
+            if (isDragging) {
+                handleDrag(e.clientX, e.clientY);
+            } else if (isResizing) {
+                handleResize(e.clientX, e.clientY);
+            }
+        }
+        
+        function handleTouchMove(e) {
+            if (!isDragging && !isResizing) return;
+            if (e.touches.length !== 1) return;
+            
+            e.preventDefault();
+            
+            if (isDragging) {
+                handleDrag(e.touches[0].clientX, e.touches[0].clientY);
+            } else if (isResizing) {
+                handleResize(e.touches[0].clientX, e.touches[0].clientY);
+            }
+        }
+        
+        function handleDrag(clientX, clientY) {
+            const videoControl = document.getElementById('videoControl');
+            
+            let newLeft = clientX - dragOffset.x;
+            let newTop = clientY - dragOffset.y;
+            
+            const maxLeft = window.innerWidth - videoControl.offsetWidth;
+            const maxTop = window.innerHeight - videoControl.offsetHeight;
+            
+            newLeft = Math.max(0, Math.min(newLeft, maxLeft));
+            newTop = Math.max(0, Math.min(newTop, maxTop));
+            
+            videoControl.style.left = `${newLeft}px`;
+            videoControl.style.top = `${newTop}px`;
+            videoControl.style.right = 'auto';
+            videoControl.style.bottom = 'auto';
+            
+            saveVideoPosition(newLeft, newTop);
+        }
+        
+        function handleResize(clientX, clientY) {
+            const videoControl = document.getElementById('videoControl');
+            
+            const deltaX = clientX - startPos.x;
+            const deltaY = clientY - startPos.y;
+            
+            let newWidth = startSize.width;
+            let newHeight = startSize.height;
+            let newLeft = parseFloat(videoControl.style.left) || videoControl.offsetLeft;
+            let newTop = parseFloat(videoControl.style.top) || videoControl.offsetTop;
+            
+            switch (resizeDirection) {
+                case 'resizeTopLeft':
+                    newWidth = Math.max(minVideoSize.width, startSize.width - deltaX);
+                    newHeight = Math.max(minVideoSize.height, startSize.height - deltaY);
+                    newLeft = startPos.x - deltaX - dragOffset.x;
+                    newTop = startPos.y - deltaY - dragOffset.y;
+                    break;
+                    
+                case 'resizeTopRight':
+                    newWidth = Math.max(minVideoSize.width, startSize.width + deltaX);
+                    newHeight = Math.max(minVideoSize.height, startSize.height - deltaY);
+                    newTop = startPos.y - deltaY - dragOffset.y;
+                    break;
+                    
+                case 'resizeBottomLeft':
+                    newWidth = Math.max(minVideoSize.width, startSize.width - deltaX);
+                    newHeight = Math.max(minVideoSize.height, startSize.height + deltaY);
+                    newLeft = startPos.x - deltaX - dragOffset.x;
+                    break;
+                    
+                case 'resizeBottomRight':
+                    newWidth = Math.max(minVideoSize.width, startSize.width + deltaX);
+                    newHeight = Math.max(minVideoSize.height, startSize.height + deltaY);
+                    break;
+            }
+            
+            newWidth = Math.min(newWidth, maxVideoSize.width);
+            newHeight = Math.min(newHeight, maxVideoSize.height);
+            
+            if (resizeDirection === 'resizeTopLeft' || resizeDirection === 'resizeBottomLeft') {
+                newLeft = Math.max(0, newLeft);
+            }
+            if (resizeDirection === 'resizeTopLeft' || resizeDirection === 'resizeTopRight') {
+                newTop = Math.max(0, newTop);
+            }
+            
+            videoControl.style.width = `${newWidth}px`;
+            videoControl.style.height = `${newHeight}px`;
+            
+            if (resizeDirection === 'resizeTopLeft' || resizeDirection === 'resizeBottomLeft') {
+                videoControl.style.left = `${newLeft}px`;
+            }
+            if (resizeDirection === 'resizeTopLeft' || resizeDirection === 'resizeTopRight') {
+                videoControl.style.top = `${newTop}px`;
+            }
+            
+            saveVideoSize(newWidth, newHeight);
+            saveVideoPosition(
+                parseFloat(videoControl.style.left) || videoControl.offsetLeft,
+                parseFloat(videoControl.style.top) || videoControl.offsetTop
+            );
+        }
+        
+        function stopInteractions() {
+            if (isDragging || isResizing) {
+                isDragging = false;
+                isResizing = false;
+                resizeDirection = null;
+                
+                const videoControl = document.getElementById('videoControl');
+                videoControl.classList.remove('dragging');
+                videoControl.classList.remove('resizing');
+            }
+        }
+        
+        function stopInteractionsTouch(e) {
+            if (isDragging || isResizing) {
+                isDragging = false;
+                isResizing = false;
+                resizeDirection = null;
+                
+                const videoControl = document.getElementById('videoControl');
+                videoControl.classList.remove('dragging');
+                videoControl.classList.remove('resizing');
+            }
+        }
+        
+        function saveVideoPosition(x, y) {
+            localStorage.setItem('videoPosition', JSON.stringify({ x, y }));
+        }
+        
+        function saveVideoSize(width, height) {
+            localStorage.setItem('videoSize', JSON.stringify({ width, height }));
+        }
+        
+        window.addEventListener('resize', function() {
+            const videoControl = document.getElementById('videoControl');
+            if (videoControl.classList.contains('show')) {
+                const rect = videoControl.getBoundingClientRect();
+                
+                const maxLeft = window.innerWidth - videoControl.offsetWidth;
+                const maxTop = window.innerHeight - videoControl.offsetHeight;
+                
+                let currentLeft = parseFloat(videoControl.style.left) || videoControl.offsetLeft;
+                let currentTop = parseFloat(videoControl.style.top) || videoControl.offsetTop;
+                
+                currentLeft = Math.max(0, Math.min(currentLeft, maxLeft));
+                currentTop = Math.max(0, Math.min(currentTop, maxTop));
+                
+                videoControl.style.left = `${currentLeft}px`;
+                videoControl.style.top = `${currentTop}px`;
+                
+                saveVideoPosition(currentLeft, currentTop);
+            }
+        });
+        
+        const emojiContainer = document.getElementById('emojiContainer');
+        const tetEmojis = ['🧧', '🎉', '🎊', '🍊', '🌸', '🍀', '🥮', '💰', '🎁', '🏮', '🐉', '🎆', '🪔', '🥂', '🍾', '💮', '🌺', '🌷', '🌼', '💝'];
+        let emojiInterval;
+        
+        function createEmoji() {
+            const emoji = document.createElement('div');
+            emoji.classList.add('emoji');
+            emoji.innerHTML = tetEmojis[Math.floor(Math.random() * tetEmojis.length)];
+            emoji.setAttribute('aria-hidden', 'true');
+            
+            const size = Math.random() * 2 + 1.5;
+            emoji.style.fontSize = `${size}rem`;
+            
+            const startPos = Math.random() * 100;
+            emoji.style.left = `${startPos}%`;
+            
+            const duration = Math.random() * 20 + 20;
+            const delay = Math.random() * 5;
+            
+            const animationType = Math.floor(Math.random() * 3);
+            let animationName = 'float';
+            
+            if (animationType === 1) animationName = 'float-slow';
+            if (animationType === 2) animationName = 'float-fast';
+            
+            emoji.style.animation = `${animationName} ${duration}s ${delay}s linear forwards, wobble 2s ${delay}s ease-in-out infinite`;
+            
+            emojiContainer.appendChild(emoji);
+            
+            setTimeout(() => {
+                if (emoji.parentNode) {
+                    emoji.parentNode.removeChild(emoji);
+                }
+            }, (duration + delay) * 1000);
+        }
+        
+        function startEmojiAnimation() {
+            if (!emojisActive) return;
+            
+            createEmoji();
+            
+            emojiInterval = setInterval(() => {
+                if (emojisActive) {
+                    createEmoji();
+                }
+            }, Math.random() * 1000 + 500);
+        }
+        
+        function stopEmojiAnimation() {
+            clearInterval(emojiInterval);
+            emojisActive = false;
+            
+            const emojis = document.querySelectorAll('.emoji');
+            emojis.forEach(emoji => {
+                emoji.style.animationPlayState = 'paused';
+            });
+        }
+        
+        function resumeEmojiAnimation() {
+            emojisActive = true;
+            
+            const emojis = document.querySelectorAll('.emoji');
+            emojis.forEach(emoji => {
+                emoji.style.animationPlayState = 'running';
+            });
+            
+            startEmojiAnimation();
+        }
+        
+        const fireworksContainer = document.getElementById('fireworksContainer');
+        
+        function createFirework() {
+            const firework = document.createElement('div');
+            firework.classList.add('firework');
+            firework.setAttribute('aria-hidden', 'true');
+            
+            const x = Math.random() * 100;
+            const y = Math.random() * 100;
+            
+            const colors = ['#ffd166', '#ff9a3c', '#ff3c6e', '#3c8ce7', '#00eaff'];
+            const color = colors[Math.floor(Math.random() * colors.length)];
+            
+            firework.style.left = `${x}%`;
+            firework.style.top = `${y}%`;
+            firework.style.backgroundColor = color;
+            firework.style.boxShadow = `0 0 10px ${color}, 0 0 20px ${color}`;
+            
+            fireworksContainer.appendChild(firework);
+            
+            const particles = 30 + Math.floor(Math.random() * 30);
+            for (let i = 0; i < particles; i++) {
+                setTimeout(() => {
+                    createParticle(x, y, color);
+                }, i * 20);
+            }
+            
+            firework.style.transition = 'all 0.5s ease';
+            firework.style.opacity = '1';
+            firework.style.transform = 'scale(1.5)';
+            
+            setTimeout(() => {
+                firework.style.opacity = '0';
+                firework.style.transform = 'scale(0)';
+                
+                setTimeout(() => {
+                    if (firework.parentNode) {
+                        firework.parentNode.removeChild(firework);
+                    }
+                }, 500);
+            }, 300);
+        }
+        
+        function createParticle(x, y, color) {
+            const particle = document.createElement('div');
+            particle.classList.add('firework');
+            particle.setAttribute('aria-hidden', 'true');
+            
+            particle.style.left = `${x}%`;
+            particle.style.top = `${y}%`;
+            particle.style.backgroundColor = color;
+            particle.style.width = '3px';
+            particle.style.height = '3px';
+            particle.style.opacity = '1';
+            
+            fireworksContainer.appendChild(particle);
+            
+            const angle = Math.random() * Math.PI * 2;
+            const velocity = 2 + Math.random() * 3;
+            const vx = Math.cos(angle) * velocity;
+            const vy = Math.sin(angle) * velocity;
+            
+            let posX = x;
+            let posY = y;
+            
+            const particleInterval = setInterval(() => {
+                posX += vx;
+                posY += vy;
+                
+                particle.style.left = `${posX}%`;
+                particle.style.top = `${posY}%`;
+                particle.style.opacity = parseFloat(particle.style.opacity) - 0.02;
+                
+                if (parseFloat(particle.style.opacity) <= 0) {
+                    clearInterval(particleInterval);
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }
+            }, 30);
+        }
+        
+        function startFireworks() {
+            const fireworksInterval = setInterval(() => {
+                for (let i = 0; i < 3; i++) {
+                    setTimeout(() => {
+                        createFirework();
+                    }, i * 300);
+                }
+            }, 800);
+            
+            setTimeout(() => {
+                clearInterval(fireworksInterval);
+            }, 5000);
+        }
+        
+        const tetMusic = document.getElementById('tetMusic');
+        const toggleMusicBtn = document.getElementById('toggleMusic');
+        
+        toggleMusicBtn.addEventListener('click', function() {
+            if (musicPlaying) {
+                tetMusic.pause();
+                toggleMusicBtn.innerHTML = '<i class="fas fa-music"></i> <span>Bật nhạc Tết</span>';
+                toggleMusicBtn.setAttribute('aria-label', 'Bật nhạc Tết');
+                musicPlaying = false;
+            } else {
+                tetMusic.play().then(() => {
+                    musicPlaying = true;
+                    toggleMusicBtn.innerHTML = '<i class="fas fa-pause"></i> <span>Tắt nhạc Tết</span>';
+                    toggleMusicBtn.setAttribute('aria-label', 'Tắt nhạc Tết');
+                }).catch(e => {
+                    console.log("Không thể phát nhạc: ", e);
+                    toggleMusicBtn.innerHTML = '<i class="fas fa-music"></i> <span>Bật nhạc Tết</span>';
+                });
+            }
+        });
+        
+        const tetVideo = document.getElementById('tetVideo');
+        const videoControl = document.getElementById('videoControl');
+        const toggleVideoBtn = document.getElementById('toggleVideoBtn');
+        const videoCloseBtn = document.getElementById('videoCloseBtn');
+        const videoListContainer = document.getElementById('videoListContainer');
+        const randomVideoBtn = document.getElementById('randomVideoBtn');
+        
+        toggleVideoBtn.addEventListener('click', function() {
+            if (videoPlaying) {
+                tetVideo.pause();
+                videoControl.classList.remove('show');
+                videoListContainer.classList.remove('show');
+                toggleVideoBtn.innerHTML = '<i class="fas fa-video"></i> <span>Bật Video</span>';
+                toggleVideoBtn.setAttribute('aria-label', 'Bật video Tết');
+                videoPlaying = false;
+            } else {
+                videoListContainer.classList.add('show');
+                toggleVideoBtn.innerHTML = '<i class="fas fa-pause"></i> <span>Tắt Video</span>';
+                toggleVideoBtn.setAttribute('aria-label', 'Tắt video Tết');
+            }
+        });
+        
+        videoCloseBtn.addEventListener('click', function() {
+            tetVideo.pause();
+            videoControl.classList.remove('show');
+            toggleVideoBtn.innerHTML = '<i class="fas fa-video"></i> <span>Bật Video</span>';
+            toggleVideoBtn.setAttribute('aria-label', 'Bật video Tết');
+            videoPlaying = false;
+        });
+        
+        randomVideoBtn.addEventListener('click', function() {
+            randomVideo();
+        });
+        
+        document.addEventListener('click', function(e) {
+            if (videoListContainer.classList.contains('show') && 
+                !videoListContainer.contains(e.target) && 
+                !toggleVideoBtn.contains(e.target) &&
+                e.target !== toggleVideoBtn) {
+                videoListContainer.classList.remove('show');
+            }
+        });
+        
+        const toggleEmojiBtn = document.getElementById('toggleEmoji');
+        toggleEmojiBtn.addEventListener('click', function() {
+            if (emojisActive) {
+                stopEmojiAnimation();
+                toggleEmojiBtn.innerHTML = '<i class="fas fa-play"></i> <span>Bật Emoji</span>';
+                toggleEmojiBtn.setAttribute('aria-label', 'Bật hiệu ứng emoji Tết');
+            } else {
+                resumeEmojiAnimation();
+                toggleEmojiBtn.innerHTML = '<i class="fas fa-pause"></i> <span>Tắt Emoji</span>';
+                toggleEmojiBtn.setAttribute('aria-label', 'Tắt hiệu ứng emoji Tết');
+            }
+        });
+        
+        const fireworksBtn = document.getElementById('fireworksBtn');
+        fireworksBtn.addEventListener('click', function() {
+            startFireworks();
+            
+            fireworksBtn.style.animation = 'glow 1s ease';
+            setTimeout(() => {
+                fireworksBtn.style.animation = '';
+            }, 1000);
+        });
+        
+        const toggleBlurBtn = document.getElementById('toggleBlur');
+        const blurEffect = document.getElementById('blurEffect');
+        
+        toggleBlurBtn.addEventListener('click', function() {
+            if (blurActive) {
+                blurEffect.classList.remove('active');
+                toggleBlurBtn.innerHTML = '<i class="fas fa-snowflake"></i> <span>Hiệu ứng Blur</span>';
+                toggleBlurBtn.setAttribute('aria-label', 'Bật hiệu ứng làm mờ nền');
+            } else {
+                blurEffect.classList.add('active');
+                toggleBlurBtn.innerHTML = '<i class="fas fa-times"></i> <span>Tắt Blur</span>';
+                toggleBlurBtn.setAttribute('aria-label', 'Tắt hiệu ứng làm mờ nền');
+            }
+            blurActive = !blurActive;
+        });
+        
+        const selectYearBtn = document.getElementById('selectYearBtn');
+        selectYearBtn.addEventListener('click', openYearModal);
+        
+        const modalClose = document.getElementById('modalClose');
+        modalClose.addEventListener('click', closeYearModal);
+        
+        const continueBtn = document.getElementById('continueBtn');
+        continueBtn.addEventListener('click', function() {
+            closeCongratulations();
+            openYearModal();
+        });
+        
+        document.getElementById('yearModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeYearModal();
+            }
+        });
+        
+        window.addEventListener('load', function() {
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            loadingOverlay.style.opacity = '0';
+            setTimeout(() => {
+                loadingOverlay.style.display = 'none';
+            }, 500);
+            
+            startEmojiAnimation();
+            initPage();
+            initDragAndResize();
+            
+            const title = document.querySelector('h1');
+            setInterval(() => {
+                title.style.animation = 'glow 2s ease';
+                setTimeout(() => {
+                    title.style.animation = '';
+                }, 2000);
+            }, 5000);
+            
+            setTimeout(() => {
+                createFirework();
+            }, 1000);
+            
+            document.getElementById('main-content').focus();
+        });
+        
+        window.addEventListener('beforeunload', function() {
+            tetMusic.pause();
+            tetVideo.pause();
+            
+            const state = {
+                musicPlaying: false,
+                videoPlaying: false,
+                selectedYear: selectedYear
+            };
+            localStorage.setItem('tetCountdownState', JSON.stringify(state));
+        });
+        
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                tetMusic.pause();
+                musicPlaying = false;
+                toggleMusicBtn.innerHTML = '<i class="fas fa-music"></i> <span>Bật nhạc Tết</span>';
+                toggleMusicBtn.setAttribute('aria-label', 'Bật nhạc Tết');
+                
+                tetVideo.pause();
+                videoPlaying = false;
+                videoControl.classList.remove('show');
+                videoListContainer.classList.remove('show');
+                toggleVideoBtn.innerHTML = '<i class="fas fa-video"></i> <span>Bật Video</span>';
+                toggleVideoBtn.setAttribute('aria-label', 'Bật video Tết');
+            }
+        });
+        
+        window.addEventListener('pageshow', function() {
+            const savedState = localStorage.getItem('tetCountdownState');
+            if (savedState) {
+                const state = JSON.parse(savedState);
+                if (!state.musicPlaying) {
+                    tetMusic.pause();
+                    musicPlaying = false;
+                    toggleMusicBtn.innerHTML = '<i class="fas fa-music"></i> <span>Bật nhạc Tết</span>';
+                }
+                
+                if (!state.videoPlaying) {
+                    tetVideo.pause();
+                    videoPlaying = false;
+                    videoControl.classList.remove('show');
+                    videoListContainer.classList.remove('show');
+                    toggleVideoBtn.innerHTML = '<i class="fas fa-video"></i> <span>Bật Video</span>';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
